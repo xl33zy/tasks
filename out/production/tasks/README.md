@@ -5,8 +5,9 @@ write the function that returns minimum of them.
 How solved - through recursion and comparing each element of array with the minimum.
 Problem 2 - You are given a number “n” and an array of “n” elements,
 write the function that returns average of them.
-How solved -
-Problem 3 -  
+How solved - through recursion and finding sum of all elements and dividing to the count of them.
+Problem 3 -  You are given a number “n”, write the function for checking
+whether“n” is prime.
 How solved - 
 Problem 4 -  
 How solved -
