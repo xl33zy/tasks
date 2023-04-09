@@ -12,8 +12,10 @@ How solved - through checking all the criterias for number to be prime. For exam
 Problem 4 - You are given a number “n”, write the program using recursion for
 finding “n!”
 How solved - through recursion to multiply n to n-1 to n-2 and so on.
-Problem 5 -  
-How solved -
+Problem 5 - You are given a number “n”, write the function for finding n-th
+elements in Fibonacci sequence using recursion. (Fn = Fn-1+ Fn-2).
+F0= 0, F1 = 1.
+How solved - through recursion to add numbers in Fibonacci sequence using (Fn = Fn-1+ Fn-2) formula.
 Problem 6 -  
 How solved -
 Problem 7 -  
