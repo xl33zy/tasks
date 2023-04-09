@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem2 {
+public class Problem7 {
     static Scanner scanner = new Scanner(System.in);
     static int n;
     static int[] array;
@@ -11,7 +11,7 @@ public class Problem2 {
     public static void solve() {
         inputN();
         inputArray();
-        System.out.println(findAverage(n, array));
+        outputReverse(n, array);
     }
 
     /*
@@ -41,17 +41,15 @@ public class Problem2 {
     }
 
     /*
-    @findAverage - find average value in the array of numbers
+    @outputReverse - prints reversed array elements
     @n - number of elements in the array
     @array - array of numbers
-    @return - average
  */
-    private static double findAverage(int n, int[] array) {
-        if (n == 0) {                   // if 0 elements in the array
-            return 0;
-        } else {                        // in other case
-            double sum = findAverage(n - 1, array) * (n - 1) + array[n - 1];
-            return sum / n;
+    public static void outputReverse(int n, int[] array) {
+        if (n == 0) {        // if 0 elements exits the function
+            return;
         }
+        System.out.print(array[n - 1] + " ");
+        outputReverse(n - 1, array);
     }
 }

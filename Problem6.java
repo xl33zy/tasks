@@ -33,9 +33,10 @@ public class Problem6 {
     }
 
     /*
-    @findFibonacci - finds n-th element in Fibonacci sequence
-    @n - order of n-th element
-    @return - fibonacci
+    @findPower - finds a^n
+    @a - number
+    @n - degree
+    @return - power
  */
     public static int findPower(int a, int n) {
         if (n == 0) {               // numbers to the 0 degree equal to 0

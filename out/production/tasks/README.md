@@ -19,7 +19,8 @@ How solved - through recursion to add numbers in Fibonacci sequence using (Fn = 
 Problem 6 - You are given numbers “a” and “n”, write the function that
 returns “a^n”.
 How solved - through recursion to get temporary value, which will be used in multiplying to get a power result
-Problem 7 -  
+Problem 7 - You are given a number “n” and an array of “n” elements,
+write the program that returns given array in reverse order.
 How solved -
 Problem 8 -  
 How solved -
