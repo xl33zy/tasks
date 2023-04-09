@@ -10,7 +10,7 @@ public class Main {
             case "2": Problem2.solve();
             case "3": Problem3.solve();
             case "4": Problem4.solve();
-//            case "5": Problem5.solve();
+            case "5": Problem5.solve();
 //            case "6": Problem6.solve();
 //            case "7": Problem7.solve();
 //            case "8": Problem8.solve();
