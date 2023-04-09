@@ -16,8 +16,9 @@ Problem 5 - You are given a number “n”, write the function for finding n-th
 elements in Fibonacci sequence using recursion. (Fn = Fn-1+ Fn-2).
 F0= 0, F1 = 1.
 How solved - through recursion to add numbers in Fibonacci sequence using (Fn = Fn-1+ Fn-2) formula.
-Problem 6 -  
-How solved -
+Problem 6 - You are given numbers “a” and “n”, write the function that
+returns “a^n”.
+How solved - through recursion to get temporary value, which will be used in multiplying to get a power result
 Problem 7 -  
 How solved -
 Problem 8 -  
