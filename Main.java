@@ -13,7 +13,7 @@ public class Main {
             case "5": Problem5.solve();
             case "6": Problem6.solve();
             case "7": Problem7.solve();
-//            case "8": Problem8.solve();
+            case "8": Problem8.solve();
 //            case "9": Problem9.solve();
 //            case "10": Problem10.solve();
         }

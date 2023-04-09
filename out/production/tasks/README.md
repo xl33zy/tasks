@@ -21,8 +21,9 @@ returns “a^n”.
 How solved - through recursion to get temporary value, which will be used in multiplying to get a power result
 Problem 7 - You are given a number “n” and an array of “n” elements,
 write the program that returns given array in reverse order.
-How solved -
-Problem 8 -  
+How solved - through recursion to print every element in reversed order.
+Problem 8 - You are given a string “s”, write the function for checking
+whether “s” is all consists of digits.
 How solved -
 Problem 9 -  
 How solved -
