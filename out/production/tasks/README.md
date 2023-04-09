@@ -8,7 +8,7 @@ write the function that returns average of them.
 How solved - through recursion and finding sum of all elements and dividing to the count of them.
 Problem 3 - You are given a number “n”, write the function for checking
 whether“n” is prime.
-How solved - through checking all the criterias for number to be prime. For example, 1 and all numbers less than 1 are not prime.
+How solved - through checking all the criteria for number to be prime. For example, 1 and all numbers less than 1 are not prime.
 Problem 4 - You are given a number “n”, write the program using recursion for
 finding “n!”
 How solved - through recursion to multiply n to n-1 to n-2 and so on.
@@ -24,8 +24,9 @@ write the program that returns given array in reverse order.
 How solved - through recursion to print every element in reversed order.
 Problem 8 - You are given a string “s”, write the function for checking
 whether “s” is all consists of digits.
-How solved -
-Problem 9 -  
+How solved - through recursion and checking the characters of string
+Problem 9 - You are given numbers“n” and “k”,write the program that
+finds binomial coefficient.
 How solved -
 Problem 10 -  
 How solved - 

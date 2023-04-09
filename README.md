@@ -25,7 +25,8 @@ How solved - through recursion to print every element in reversed order.
 Problem 8 - You are given a string “s”, write the function for checking
 whether “s” is all consists of digits.
 How solved - through recursion and checking the characters of string
-Problem 9 -  
-How solved -
+Problem 9 - You are given numbers“n” and “k”,write the program that
+finds binomial coefficient.
+How solved - through recursion in binomial coefficient formula
 Problem 10 -  
 How solved - 
