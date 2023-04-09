@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class problem3 {
+public class Problem3 {
     static Scanner scanner = new Scanner(System.in);
     static int n;
-    static int[] array;
 
     /*
     @solve - solves the task
@@ -38,5 +37,4 @@ public class problem3 {
         }
         return "Prime";
     }
-
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class problem2 {
+public class Problem1 {
     static Scanner scanner = new Scanner(System.in);
     static int n;
     static int[] array;
@@ -11,7 +11,7 @@ public class problem2 {
     public static void solve() {
         inputN();
         inputArray();
-        System.out.println(findAverage(n, array));
+        System.out.println(findMinimum(n, array));
     }
 
     /*
@@ -40,21 +40,20 @@ public class problem2 {
         array = arr;
     }
 
-    /*
-    @findAverage - find average value in the array of numbers
+/*
+    @findMinimum - finds minimum value in the array of numbers
     @n - number of elements in the array
     @array - array of numbers
-    @return - average
+    @minimum - minimum value in the array of numbers
  */
-    private static double findAverage(int n, int[] array) {
-        if (n == 0) {                   // if 0 elements in the array
-            return 0;
-        } else {                        // in other case
-            double sum = findAverage(n - 1, array) * (n - 1) + array[n - 1];
-            return sum / n;
+    private static int findMinimum(int n, int[] array) {
+        if (n == 1) {                   // if array has one element return it
+            return array[0];
         }
+        int minimum = findMinimum(n - 1, array);
+        if (array[n - 1] < minimum) {       // compare the last element of array with the minimum
+            minimum = array[n - 1];
+        }
+        return minimum;
     }
-
-
-
 }
