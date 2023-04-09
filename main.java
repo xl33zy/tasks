@@ -7,7 +7,7 @@ public class main {
         String problemNum = sc.nextLine();
         switch (problemNum) {
             case "1": problem1.solve();
-//            case "2": problem2.solve();
+            case "2": problem2.solve();
 //            case "3": problem3.solve();
 //            case "4": problem4.solve();
 //            case "5": problem5.solve();

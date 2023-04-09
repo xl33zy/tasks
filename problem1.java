@@ -1,5 +1,3 @@
-// test piu piu
-
 import java.util.Scanner;
 
 public class problem1 {
@@ -44,8 +42,8 @@ public class problem1 {
 
 /*
     @findMinimum - finds minimum value in the array of numbers
-    @array - array of numbers
     @n - number of elements in the array
+    @array - array of numbers
     @minimum - minimum value in the array of numbers
  */
     private static int findMinimum(int n, int[] array) {
