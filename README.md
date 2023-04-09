@@ -48,7 +48,7 @@ How solved - through recursion in binomial coefficient formula.
 
 * **Problem 10** - You are given “a” and “b”, write the function for finding
 GCD(a, b) using recursion.  
-How solved - through recursion and % operator.  
+How solved - through recursion and % operator.
 
 
 ![img.png](img.png)
